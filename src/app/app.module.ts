@@ -4,25 +4,23 @@ import { BrowserAnimationsModule, provideAnimations } from '@angular/platform-br
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Toast } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { Ripple } from 'primeng/ripple';
+
 import { provideHttpClient } from '@angular/common/http';
 import { providePrimeNG } from 'primeng/config';
 import { Noir } from '../../style';
 import { ConfirmationService, MessageService } from 'primeng/api';
+import { SharedModule } from './shared/shared.module';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    Toast,
-    ButtonModule,
-    Ripple
-
+    SharedModule,
   ],
   providers: [
     provideHttpClient(),

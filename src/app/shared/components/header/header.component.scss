@@ -16,23 +16,26 @@
   display: flex;
   align-items: center;
   width: 50%;
-  gap: 18%;
+  gap: 30%;
 }
 
 .cont-right {
   display: flex;
   align-items: center;
   width: 50%;
-  gap: 3%;
+  gap: 6%;
 }
+
 .estilo-label-saudacoes {
   font-weight: 800;
   font-size: 18px;
 }
+
 .estilo-label-header {
   font-weight: 500;
   color: #666666;
 }
+
 .name-adm {
   position: relative;
   top: -22px;
@@ -40,6 +43,7 @@
   font-weight: 600;
   color: #2a2a2a;
 }
+
 .label-adm {
   position: relative;
   top: -19px;

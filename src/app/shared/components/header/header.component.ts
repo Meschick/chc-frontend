@@ -9,6 +9,7 @@ import { MenuItem } from 'primeng/api';
 })
 export class HeaderComponent {
   items: MenuItem[] | undefined;
+  visible: boolean = false;
 
   ngOnInit() {
     this.items = [

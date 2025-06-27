@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   width: 50%;
-  gap: 30%;
+  gap: 22%;
 }
 
 .cont-right {
@@ -26,9 +26,21 @@
   gap: 6%;
 }
 
+.cont-label {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+
 .estilo-label-saudacoes {
   font-weight: 800;
   font-size: 18px;
+}
+
+.style-label-logo{
+  font-weight: 600;
+  font-size: 20px;
+  color: #36c6c8;
 }
 
 .estilo-label-header {

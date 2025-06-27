@@ -1,0 +1,51 @@
+main {
+  width: 100%;
+  display: flex;
+}
+
+.menu-left {
+  width: 20%;
+  height: 100vh;
+  background-color: #fcfcfc;
+  padding-top: 2%;
+}
+
+.label-menu {
+  margin-left: 4%;
+  font-weight: 400;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.content-rigth {
+  width: 75%;
+  height: 100vh;
+  border: 1px solid black;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.options-menu {
+  width: 90%;
+  margin: auto;
+  height: 47px;
+  margin-top: 2%;
+  padding-left: 5%;
+}
+.options-menu:hover {
+  background-color: #209596;
+  color: #fcfcfc;
+  border-radius: 10px;
+}
+
+.item-menu {
+  display: flex;
+  align-items: center;
+  gap: 4%;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.space-divider {
+  margin-top: 1%;
+}

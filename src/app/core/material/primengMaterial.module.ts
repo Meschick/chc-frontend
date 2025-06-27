@@ -13,6 +13,8 @@ import { OverlayBadgeModule } from 'primeng/overlaybadge';
 import { FloatLabelModule } from 'primeng/floatlabel';
 import { Menubar } from 'primeng/menubar';
 
+import { DrawerModule } from 'primeng/drawer';
+
 @NgModule({
   imports: [
     Toast,
@@ -25,7 +27,8 @@ import { Menubar } from 'primeng/menubar';
     AvatarModule,
     OverlayBadgeModule,
     FloatLabelModule,
-    Menubar
+    Menubar,
+    DrawerModule
   ],
   exports: [
     Toast,
@@ -38,7 +41,8 @@ import { Menubar } from 'primeng/menubar';
     AvatarModule,
     OverlayBadgeModule,
     FloatLabelModule,
-    Menubar
+    Menubar,
+    DrawerModule
   ]
 })
 export class PrimengMaterialModule { }

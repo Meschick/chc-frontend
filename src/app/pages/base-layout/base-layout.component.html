@@ -1,71 +1,71 @@
-<app-header></app-header>
-<p-divider />
-<main>
-  <div class="menu-left">
-    <p class="label-menu">Menu</p>
-    <div class="options-menu">
-      <div class="item-menu" routerLink="['']">
-        <i class="pi pi-th-large"></i>
-        <p>Dashboard</p>
+  <app-header></app-header>
+  <p-divider />
+  <main>
+    <div class="menu-left">
+      <p class="label-menu">Menu</p>
+      <div class="options-menu">
+        <div class="item-menu" routerLink="/dashboard">
+          <i class="pi pi-th-large"></i>
+          <p>Dashboard</p>
+        </div>
+      </div>
+      <div class="options-menu">
+        <div class="item-menu" routerLink="['']">
+          <i class="pi pi-users"></i>
+          <p>Médicos</p>
+        </div>
+      </div>
+      <div class="options-menu">
+        <div class="item-menu" routerLink="['']">
+          <i class="pi pi-users"></i>
+          <p>Pacientes</p>
+        </div>
+      </div>
+      <div class="options-menu">
+        <div class="item-menu" routerLink="['']">
+          <i class="pi pi-briefcase"></i>
+          <p>Funcionários</p>
+        </div>
+      </div>
+      <div class="options-menu">
+        <div class="item-menu" routerLink="['']">
+          <i class="pi pi-calendar"></i>
+          <p>Calendário</p>
+        </div>
+      </div>
+      <div class="options-menu">
+        <div class="item-menu" routerLink="['']">
+          <i class="pi pi-file-check"></i>
+          <p>Gestão de Licença</p>
+        </div>
+      </div>
+      <div class="options-menu">
+        <div class="item-menu" routerLink="['']">
+          <i class="pi pi-th-large"></i>
+          <p>Dashboard</p>
+        </div>
+      </div>
+      <p-divider class="space-divider" />
+      <div class="options-menu">
+        <div class="item-menu" routerLink="['']">
+          <i class="pi pi-question-circle"></i>
+          <p>Ajuda e Suporte</p>
+        </div>
+      </div>
+      <div class="options-menu">
+        <div class="item-menu" routerLink="['']">
+          <i class="pi pi-cog"></i>
+          <p>Configurações</p>
+        </div>
+      </div>
+      <div class="options-menu">
+        <div class="item-menu" routerLink="['']">
+          <i class="pi pi-sign-out"></i>
+          <p>Login</p>
+        </div>
       </div>
     </div>
-    <div class="options-menu">
-      <div class="item-menu" routerLink="['']">
-        <i class="pi pi-users"></i>
-        <p>Médicos</p>
-      </div>
+    <div class="content-rigth">
+      <router-outlet></router-outlet>
     </div>
-    <div class="options-menu">
-      <div class="item-menu" routerLink="['']">
-        <i class="pi pi-users"></i>
-        <p>Pacientes</p>
-      </div>
-    </div>
-    <div class="options-menu">
-      <div class="item-menu" routerLink="['']">
-        <i class="pi pi-briefcase"></i>
-        <p>Funcionários</p>
-      </div>
-    </div>
-    <div class="options-menu">
-      <div class="item-menu" routerLink="['']">
-        <i class="pi pi-calendar"></i>
-        <p>Calendário</p>
-      </div>
-    </div>
-    <div class="options-menu">
-      <div class="item-menu" routerLink="['']">
-        <i class="pi pi-file-check"></i>
-        <p>Gestão de Licença</p>
-      </div>
-    </div>
-    <div class="options-menu">
-      <div class="item-menu" routerLink="['']">
-        <i class="pi pi-th-large"></i>
-        <p>Dashboard</p>
-      </div>
-    </div>
-    <p-divider class="space-divider" />
-    <div class="options-menu">
-      <div class="item-menu" routerLink="['']">
-        <i class="pi pi-question-circle"></i>
-        <p>Ajuda e Suporte</p>
-      </div>
-    </div>
-    <div class="options-menu">
-      <div class="item-menu" routerLink="['']">
-        <i class="pi pi-cog"></i>
-        <p>Configurações</p>
-      </div>
-    </div>
-    <div class="options-menu">
-      <div class="item-menu" routerLink="['']">
-        <i class="pi pi-sign-out"></i>
-        <p>Login</p>
-      </div>
-    </div>
-  </div>
-  <div class="content-rigth">
-    <p>Teste</p>
-  </div>
-</main>
+  </main>

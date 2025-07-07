@@ -16,7 +16,14 @@
   display: flex;
   align-items: center;
   width: 50%;
-  gap: 22%;
+
+  @media (min-width: 1400px) {
+    gap: 24%;
+  }
+
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    gap: 16%;
+  }
 }
 
 .cont-right {
@@ -36,7 +43,7 @@
   font-size: 18px;
 }
 
-.style-label-logo{
+.style-label-logo {
   font-weight: 600;
   font-size: 20px;
   color: #43e0e2;

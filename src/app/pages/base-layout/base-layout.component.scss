@@ -1,3 +1,5 @@
+@import "colors-globais.scss";
+
 main {
   width: 100%;
   display: flex;
@@ -6,7 +8,7 @@ main {
 .menu-left {
   width: 20%;
   height: 100vh;
-  background-color: #fcfcfc;
+  background-color: $white-primary;
   padding-top: 2%;
 }
 
@@ -14,13 +16,12 @@ main {
   margin-left: 4%;
   font-weight: 400;
   font-size: 14px;
-  color: #aaaaaa;
+  color: $gray-secondary-2;
 }
 
 .content-rigth {
   width: 75%;
   height: 100vh;
-  border: 1px solid black;
   margin: auto;
   padding-top: 2%;
 }
@@ -33,8 +34,8 @@ main {
   padding-left: 6%;
 }
 .options-menu:hover {
-  background-color: #209596;
-  color: #fcfcfc;
+  background-color: $blue-primary;
+  color: $white-primary;
   border-radius: 10px;
 }
 

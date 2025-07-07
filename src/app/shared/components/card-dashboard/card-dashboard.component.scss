@@ -1,0 +1,32 @@
+@import "colors-globais.scss";
+
+.cont-card {
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+}
+
+.custom-icons {
+  color: $blue-primary;
+  font-size: 30px;
+  margin: auto;
+}
+.main-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8%;
+}
+
+.estilo-label-card {
+  color: $gray-primary;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.estilo-descri-card {
+  color: $black-primary;
+  font-size: 20px;
+  font-weight: 600;
+}
